@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle password visibility</title>
+    <link href="css/all.css" rel="stylesheet"> <!--load all styles for icons -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> <!--load bootstrap -->
+    <style>
+        form i{
+            margin: -30px;
+            cursor: pointer;
+            color:teal;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>sign in</h1>
+
+        <form action="">
+
+            <p>
+                <label for="username">username:</label>
+                <input type="text" name="username" id="username">
+            </p>
+
+            <p>
+                <label for="password">password:</label>
+                <input type="password" name="password" id="password">
+                <i id="togglePassword" class="fas fa-eye"></i>
+            </p>
+            
+            <button type="submit"id="submit" class="btn btn-outline-primary">Log in</button>
+        </form>
+    </div>
+
+
+
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
