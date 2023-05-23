@@ -19,4 +19,6 @@ togglePassword.addEventListener('click', () =>{
 
 })
 
+alert("done");
+
 
