@@ -12,6 +12,8 @@ const password = document.querySelector('#password');
 //     }
 // }
 
+const [a, b] = ['one', 'two']
+
 togglePassword.addEventListener('click', () =>{
     password.type === 'password' 
     ? password.type = 'text' 
